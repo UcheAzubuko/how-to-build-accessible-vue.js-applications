@@ -8,11 +8,11 @@
   <!-- Display of hierarchical order of headings -->
 
   <!-- Hierarchical order means that headings are arranged in an order from the most important to least important.
-     The h1 is the most important heading level, while the h6 is the least important.
+     The h1 is the most important heading level, while the h6 is the least important heading level.
 
-In practice, for web content, you will use the h1 for the page title, give the most important sections an h2, and, if needed, add an h3 or maybe even an h4 to divide the content in the h2 section.
+Practically, you will use the h1 for the title of the page, give the most important sections an h2, and, if needed, use an h3 or an h4 to divide the content in the h2 section.
 
-You only need to start with the h1 if that makes sense for your content structure and design. For example:
+You only need to start with h1 if that makes sense for your web content structure and design, like shown below:
 
     h2 = main menu
 h1 = title of a news article
