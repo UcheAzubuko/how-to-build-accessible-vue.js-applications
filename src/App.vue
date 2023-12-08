@@ -8,6 +8,10 @@
 
   <button ref="openModalBtn" @click.prevent="openModal">Open modal</button>
   <AppModal :is-open="modalIsOpen" @close="closeModal" />
+
+  <ProgrammaticFocus />
+
+  <TabIndex />
   <RouterView></RouterView>
 </template>
 
@@ -16,6 +20,8 @@ import { ref, watch } from "vue";
 import AppModal from "./components/AppModal.vue";
 import ThemeSwitcher from "./components/ThemeSwitcher.vue";
 import FocusManagement from "./pages/FocusManagement.vue";
+import ProgrammaticFocus from "./components/ProgrammaticFocus.vue";
+import TabIndex from "./components/TabIndex.vue";
 
 const modalIsOpen = ref(false);
 
