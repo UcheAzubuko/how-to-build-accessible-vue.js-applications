@@ -1,5 +1,5 @@
 <template>
-  <form class="modal-form">
+  <form class="form">
     <div class="form-control">
       <label for="email">Email</label>
       <input

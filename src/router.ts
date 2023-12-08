@@ -11,7 +11,7 @@ const router = createRouter({
   ] as Array<RouteRecordRaw>,
 });
 
-router.beforeEach(async (to, _from, next) => {
+router.beforeEach(async (_to, _from, next) => {
   next();
 });
 
